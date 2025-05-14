@@ -1,6 +1,5 @@
 pyyaml
-pyasn1==0.4.8
-git+https://github.com/etingof/pysnmp.git@master#egg=pysnmp
+pysnmplib
 pyasyncore;python_version>="3.12"
 tkcalendar
 pyperclip

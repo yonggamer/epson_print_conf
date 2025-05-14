@@ -84,14 +84,7 @@ cd epson_print_conf
 pip install -r requirements.txt
 ```
 
-Notes (at the time of writing):
-
-- [before pysnmp, install pyasn1 with version 0.4.8 and not 0.5](https://github.com/etingof/pysnmp/issues/440#issuecomment-1544341598)
-- [pull pysnmp from the GitHub master branch, not from PyPI](https://stackoverflow.com/questions/54868134/snmp-reading-from-an-oid-with-three-libraries-gives-different-execution-times#comment96532761_54869361)
-
-This program exploits [pysnmp](https://github.com/etingof/pysnmp), basing on the related [documentation](https://pysnmp.readthedocs.io/).
-
-It is tested with Ubuntu / Windows Subsystem for Linux, Windows.
+This program is tested with Ubuntu / Windows Subsystem for Linux, Windows.
 
 ## Usage
 
@@ -103,7 +96,7 @@ The *epson_print_conf.zip* archive in the [Releases](https://github.com/Ircama/e
 
 Run *ui.py* as in this example:
 
-```
+```bash
 python ui.py
 ```
 
